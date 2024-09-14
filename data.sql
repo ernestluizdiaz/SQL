@@ -48,13 +48,13 @@ insert into Posts (PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends
 insert into Posts (PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID, DatePosted) values (10, 'War op w intentl restrict of air/airwy, civilian, init', 10, false, false, 10, '3:02 AM');
 
 -- Posts Group Membership Requests Table
-insert into GroupMembershipRequests (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (1, 'Esophagostomy hemorrhage', 1, false, '10:56 PM');
-insert into GroupMembershipRequests (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (2, 'Contusion of thigh', 2, 0, '11:12 AM');
-insert into GroupMembershipRequests (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (3, 'Poisoning by opth drugs and preparations, self-harm, sequela', 3, true, '10:59 PM');
-insert into GroupMembershipRequests (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (4, 'Overexertion from strenuous movement or load, init', 4, false, '7:13 PM');
-insert into GroupMembershipRequests (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (5, 'Encounter for aftercare following kidney transplant', 5, false, '7:15 PM');
-insert into GroupMembershipRequests (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (6, 'Carbuncle of left foot', 6, true, '3:07 PM');
-insert into GroupMembershipRequests (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (7, 'Passenger on bus injured in collision w hv veh nontraf, init', 7, false, '4:44 PM');
-insert into GroupMembershipRequests (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (8, 'Anticoagulants and antithrombotic drugs', 8, true, '2:55 PM');
-insert into GroupMembershipRequests (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (9, 'Laceration of unsp msl/tnd at ank/ft level, right foot, init', 9, true, '3:43 PM');
-insert into GroupMembershipRequests (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (10, 'Sltr-haris Type II physeal fracture of lower end of r fibula', 10, false, '2:17 AM');
+insert into GroupMembershipRequests (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (1, 1, 1, true, '9:17 PM');
+insert into GroupMembershipRequests (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (2, 2, 2, true, '5:32 PM');
+insert into GroupMembershipRequests (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (3, 3, 3, false, '5:07 AM');
+insert into GroupMembershipRequests (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (4, 4, 4, false, '4:57 AM');
+insert into GroupMembershipRequests (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (5, 5, 5, true, '8:19 PM');
+insert into GroupMembershipRequests (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (6, 6, 6, true, '2:25 PM');
+insert into GroupMembershipRequests (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (7, 7, 7, false, '3:14 AM');
+insert into GroupMembershipRequests (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (8, 8, 8, false, '5:12 PM');
+insert into GroupMembershipRequests (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (9, 9, 9, true, '9:55 AM');
+insert into GroupMembershipRequests (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (10, 10, 10, false, '12:15 PM');
